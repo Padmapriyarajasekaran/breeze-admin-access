@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { logoutAdmin } from "@/services/authService";
 import { useNavigate } from "react-router-dom";
-import { useToast } from "@/components/ui/toast";
+import { useToast } from "@/hooks/use-toast";
 
 interface DashboardHeaderProps {
   title: string;
